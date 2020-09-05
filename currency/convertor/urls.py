@@ -4,6 +4,6 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path('currency/', views.get_exchange, name="get_exchange"),
+    path('api/qoutes', views.get_exchange, name="get_exchange"),
 
 ]
